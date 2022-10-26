@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vs;
+  display: flex;
+  justify-content: center;
+  margin-top: 30vmin;
+  background-color: beige;
+}
+.button-style {
+  font-size: 4rem;
+  padding: 0.5em;
+  border: 0.1em solid black;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+.button-night {
+  color: #ff0000;
+  box-shadow: 0 0 3em 0.8em red;
+  border: 0.08em solid rgb(247, 244, 219);
+  background-color: #000000;
+}
+
+.body-night {
+  background-color: #000000;
+}
